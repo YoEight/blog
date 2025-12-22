@@ -161,7 +161,7 @@ PROJECT INTO e
 
 By tracking how fields are used throughout the query, the type inferencer can rule out nonsensical queries before they ever reach the database. This provides better error messages and prevents runtime failures from type mismatches.
 
-You can find the parser on GitHub: [event-query-lang](https://github.com/YoEight/event-query-lang)
+You can find the parser on GitHub: [eventql-parser](https://github.com/YoEight/eventql-parser)
 
 ## Why This Matters
 
