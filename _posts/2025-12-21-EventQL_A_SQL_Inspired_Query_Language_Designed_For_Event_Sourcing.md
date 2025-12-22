@@ -132,7 +132,7 @@ A query like this:
 FROM e IN events
 WHERE e.type == "user-registered"
   AND e.time > "2025-01-01"
-  AND e.subject LIKE "/users/*"
+  AND e.subject == "/users"
 ORDER BY e.time DESC
 TOP 1000
 PROJECT INTO e
