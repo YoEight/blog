@@ -1,3 +1,9 @@
+---
+layout: default
+title: "EventQL: A SQL-Inspired Query Language Designed for Event Sourcing"
+date: 2025-12-21
+---
+
 # EventQL: A SQL-Inspired Query Language Designed for Event Sourcing
 
 Event sourcing has become an increasingly popular architectural pattern, but querying event streams efficiently has remained a challenge. While events are append-only and immutable, finding specific events or analyzing patterns across thousands or millions of events requires thoughtful query design. This is where EventQL shines.
