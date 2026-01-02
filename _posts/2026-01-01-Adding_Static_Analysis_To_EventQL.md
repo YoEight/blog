@@ -240,7 +240,7 @@ Here's how to use static analysis in practice:
 use eventql_parser::{parse_query, AnalysisOptions};
 
 // Parse the query
-let query = parse("FROM e in events PROJECT INTO e")?;
+let query = parse_query("FROM e in events PROJECT INTO e")?;
 
 // Run static analysis
 let typed_query = query.run_static_analysis(&AnalysisOptions::default())?;
