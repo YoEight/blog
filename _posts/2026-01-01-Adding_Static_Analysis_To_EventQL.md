@@ -294,4 +294,5 @@ The implementation demonstrates several important techniques:
 These patterns are applicable to any language implementation and show how type systems can provide safety without sacrificing flexibility.
 
 The full implementation is available on [GitHub], and contributions and feedback from the community are welcome.
-[Github]: https://github.com/YoEight/eventql-parser
+
+[GitHub]: https://github.com/YoEight/eventql-parser
